@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./pages/**/*.{html,js}"],
+    content: ["./pages/**/*.{html,js}", "./**/*.{html,js}"],
     theme: {
         screens: {
             sm: "640px",
@@ -20,10 +20,12 @@ module.exports = {
         },
         extend: {
             colors: {
+                mygray: "#444655",
                 myblack: "#343A40",
                 mypurple: "#7952B3",
                 mynavy: "#3B3486",
                 myyellow: "#FFC107",
+                myyellow2: "#F2B600",
                 mywhite: "#E1E8EB",
             },
             fontFamily: {
