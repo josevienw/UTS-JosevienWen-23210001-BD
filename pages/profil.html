@@ -174,5 +174,35 @@
                 </div>
             </div>
         </section>
+
+        <section class="bg-gray-800 h-screen flex flex-wrap items-center">
+            <div class="xl:max-w-screen-xl flex flex-wrap items-center mx-auto text-white">
+                <div class="px-5 py-5 w-full">
+                    <h2 class="lg:text-5xl text-3xl text-center my-10">Tinggalkan Pesan!</h2>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a7737566-d8d5-4fe9-911e-dd7bbf1145d4" />
+
+                        <div class="my-5">
+                            <p>Nama</p>
+                            <input type="text" class="lg:w-[800px] w-full border text-sm rounded-lg p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="John Doe" name="nama" id="" required />
+                        </div>
+
+                        <div class="my-5">
+                            <p>Email</p>
+                            <input type="email" class="lg:w-[800px] w-full border text-sm rounded-lg p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" placeholder="johndoe@gmail.com" name="email" id="" required />
+                        </div>
+
+                        <div class="my-5">
+                            <p>Pesan</p>
+                            <textarea name="pesan" id="" class="lg:w-[800px] w-full border text-sm rounded-lg p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white" cols="30" rows="10" placeholder="Halo ini adalah pesan!" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" name="redirect" class="text-sm rounded-lg block w-full p-2.5 bg-myyellow text-black">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
